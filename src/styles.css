@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('https://image.shutterstock.com/image-vector/clouds-silhouettes-vector-set-shapes-600w-334782548.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+}

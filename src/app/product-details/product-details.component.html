@@ -1,8 +1,9 @@
-<div class="card h-100 shadow" >
-    <img src="https://st.depositphotos.com/1428083/2946/i/600/depositphotos_29460297-stock-photo-bird-cage.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
+<div class="card h-100 shadow">
+  <img src={{productObj.productImage}} class="card-img-top w-100 " height="150px" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" style="color: #173e9c;">{{productObj.productTitle}}</h5>
+    <p class="card-text">{{productObj.description}}
+    </p>
+    <button href="#" class="btn btn-primary" (click)="sendProductDetailsToParent(productObj.productTitle)"><i class="fas fa-plus-square"></i>Add product</button>
   </div>
+</div>
