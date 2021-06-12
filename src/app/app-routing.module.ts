@@ -5,12 +5,14 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MobilesComponent } from './mobiles/mobiles.component';
+import { MyuserdetailsComponent } from './myuserdetails/myuserdetails.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ProductsComponent } from './products/products.component';
 import { RegisterComponent } from './register/register.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
 import { TestComponent } from './test/test.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { UsersComponent } from './users/users.component';
 
 
 const routes: Routes = [
@@ -20,6 +22,8 @@ const routes: Routes = [
   {path:'contactus',component:ContactusComponent},
   {path:'test',component:TestComponent},
   {path:'test/:id',component:UserdetailsComponent},
+  {path:'users/:mid',component:MyuserdetailsComponent},
+  {path:'users',component:UsersComponent},
   {path:'products',component:ProductsComponent,children:[
     {path:'mobiles',component:MobilesComponent},
     {path:'bikes',component:BikesComponent},

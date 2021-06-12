@@ -1,1 +1,17 @@
-<p>users works!</p>
+<table class="table text-white">
+    <thead>
+        <th>ID</th>
+        <th>Email</th>
+        <th>Name</th>
+      
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let myObj of userdb">
+            <td><button class="btn btn-info btn-sm" (click)="onSelectMyId(myObj.id)">{{myObj.id}}</button></td>
+            <td>{{myObj.userId}}</td>
+            <td>{{myObj.title}}</td>
+            
+        </tr>
+    </tbody>
+</table>

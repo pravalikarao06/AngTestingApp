@@ -2,7 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import {Observable} from 'rxjs';
 import {Post} from '../app/models/posts.model';
-import {User} from '../app/models/users.model'
+import {User} from '../app/models/users.model';
+
 
 @Injectable({
   providedIn: 'root'
@@ -23,4 +24,16 @@ export class FakedataService {
   getPostById(id):Observable<Post>{
     return this.hc.get<Post>('https://jsonplaceholder.typicode.com/posts/'+id)
   }
+
+
+  //mytaskk
+  getUserdb():Observable<any>{
+    return this.hc.get<any>('https://jsonplaceholder.typicode.com/albums')
+  }
+
+  getme(mid):Observable<any>{
+    return this.hc.get<any>('https://jsonplaceholder.typicode.com/albums/' +mid)
+  }
+
+  
 }

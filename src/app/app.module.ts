@@ -17,6 +17,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { TestComponent } from './test/test.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { UsersComponent } from './users/users.component';
+import { MyuserdetailsComponent } from './myuserdetails/myuserdetails.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { UsersComponent } from './users/users.component';
     PagenotfoundComponent,
     TestComponent,
     UserdetailsComponent,
-    UsersComponent
+    UsersComponent,
+    MyuserdetailsComponent
   ],
   imports: [
     BrowserModule,

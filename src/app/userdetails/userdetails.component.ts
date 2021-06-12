@@ -11,6 +11,7 @@ import { Post } from '../models/posts.model';
 export class UserdetailsComponent implements OnInit {
 
   postObj:Post;
+  
   constructor(private ar:ActivatedRoute,private fs:FakedataService) { }
 
   ngOnInit(): void {
@@ -25,6 +26,8 @@ export class UserdetailsComponent implements OnInit {
         console.log("err is",err)
       }
     )
+
+    
   }
 
 }
