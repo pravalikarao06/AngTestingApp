@@ -1,4 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { FakedataService } from '../fakedata.service';
 import { Post } from '../models/posts.model';
@@ -16,7 +17,7 @@ export class TestComponent implements OnInit,OnDestroy {
   myPosts:Post[]=[];
   users:User;
   //inject Fakedata service object
-  constructor(private fsObj:FakedataService) { }
+  constructor(private fsObj:FakedataService , private router:Router) { }
 
   ngOnInit(): void {
     this.fsObj.getPosts().subscribe(
@@ -38,6 +39,11 @@ export class TestComponent implements OnInit,OnDestroy {
         console.log("err is",err)
       }
     )
+  }
+
+
+  onSelectId(id){
+    this.router.navigateByUrl('test/'+id)
   }
 
   ngOnDestroy(){
