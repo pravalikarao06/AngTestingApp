@@ -1,0 +1,106 @@
+{
+  "mobiles": [
+    {
+      "productTitle": "Apple",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://youmatter.world/app/uploads/sites/2/2019/11/tech-planet.jpg"
+    },
+    {
+      "productTitle": "Samsung",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://apicms.thestar.com.my/uploads/images/2020/08/24/831125.jpg"
+    },
+    {
+      "productTitle": "One-plus",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://itconsultingindubai.files.wordpress.com/2016/03/choosing-a-technology-solution.jpg"
+    },
+    {
+      "productTitle": "Vivo",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://itconsultingindubai.files.wordpress.com/2016/03/choosing-a-technology-solution.jpg"
+    },
+    {
+      "productTitle": "Oppo",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://wallpaperaccess.com/full/4755970.jpg"
+    },
+    {
+      "productTitle": "Mi",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX5577975.jpg"
+    }
+  ],
+  "users": [
+    {
+      "mid": "1",
+      "email": "abc@gmail.com",
+      "name": "abc",
+      "profession": "doctor",
+      "mobilenum": 909090
+    },
+    {
+      "mid": "2",
+      "email": "abcd@gmail.com",
+      "name": "abcd",
+      "profession": "eng",
+      "mobilenum": 345676
+    },
+    {
+      "mid": "3",
+      "email": "abcde@gmail.com",
+      "name": "abcde",
+      "profession": "pilot",
+      "mobilenum": 453451
+    },
+    {
+      "mid": "4",
+      "email": "abcdef@gmail.com",
+      "name": "abcdef",
+      "profession": "homemaker",
+      "mobilenum": 345679
+    },
+    {
+      "mid": "5",
+      "email": "abcdefg@gmail.com",
+      "name": "abcdefg",
+      "profession": "plumber",
+      "mobilenum": 123456
+    },
+    {
+      "mid": "6",
+      "email": "abch@gmail.com",
+      "name": "abch",
+      "profession": "farmer",
+      "mobilenum": 365421
+    },
+    {
+      "mid": "7",
+      "email": "abcg@gmail.com",
+      "name": "abcg",
+      "profession": "carpenter",
+      "mobilenum": 985609
+    },
+    {
+      "mid": "8",
+      "email": "abck@gmail.com",
+      "name": "abck",
+      "profession": "florist",
+      "mobilenum": 546889
+    },
+    {
+      "mid": "9",
+      "email": "abcq@gmail.com",
+      "name": "abcq",
+      "profession": "actor",
+      "mobilenum": 234671
+    },
+    {
+      "mid": "10",
+      "email": "abcr@gmail.com",
+      "name": "abcr",
+      "profession": "painter",
+      "mobilenum": 758302
+    }
+  ]
+}

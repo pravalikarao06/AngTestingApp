@@ -47,15 +47,13 @@ export class MobilesComponent implements OnInit  {
     }
     ];*/
 
+    ngOnInit(){}
 
 
-    mobiles:Product[]=[];
-
+    //this code is written before viewmobiles and addnewmobiles are create,now this code is written in viewmobiles.ts
+    /*mobiles:Product[]=[];
     //inject obj of DataService class
-    constructor(private dsObj:DataService){
-
-    }
-
+    constructor(private dsObj:DataService){}
     ngOnInit(){
       this.dsObj.getMobilesData().subscribe(
         data=>{
@@ -65,7 +63,13 @@ export class MobilesComponent implements OnInit  {
           console.log("err is",err)
         }
       )
-    }
+    }*/
+
+
+
+
+
+
 
     /*ngOnInit(){
       //obj initialization logic

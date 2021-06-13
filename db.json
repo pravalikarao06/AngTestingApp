@@ -1,107 +1,49 @@
 {
-    "mobiles":[
-            {
-              "productTitle": "Apple",
-              "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-              "productImage": "https://youmatter.world/app/uploads/sites/2/2019/11/tech-planet.jpg"
-            },
-            {
-              "productTitle": "Samsung",
-              "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-              "productImage": "https://apicms.thestar.com.my/uploads/images/2020/08/24/831125.jpg"
-            },
-            {
-              "productTitle": "One-plus",
-              "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-              "productImage": "https://itconsultingindubai.files.wordpress.com/2016/03/choosing-a-technology-solution.jpg"
-            },
-            {
-              "productTitle": "Vivo",
-              "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-              "productImage": "https://itconsultingindubai.files.wordpress.com/2016/03/choosing-a-technology-solution.jpg"
-            },
-            {
-              "productTitle": "Oppo",
-              "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-              "productImage": "https://wallpaperaccess.com/full/4755970.jpg"
-            },
-            {
-              "productTitle": "Mi",
-              "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-              "productImage": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX5577975.jpg"
-            }
-    ],
-    "users":[
-        {
-          "mid":"1",
-          "email":"abc@gmail.com",
-          "name":"abc",
-          "profession":"doctor",
-          "mobilenum":909090
-        },
-        {
-          "mid":"2",
-          "email":"abcd@gmail.com",
-          "name":"abcd",
-          "profession":"eng",
-          "mobilenum":345676
-        },
-        {
-          "mid":"3",
-          "email":"abcde@gmail.com",
-          "name":"abcde",
-          "profession":"pilot",
-          "mobilenum":453451
-        },
-        {
-          "mid":"4",
-          "email":"abcdef@gmail.com",
-          "name":"abcdef",
-          "profession":"homemaker",
-          "mobilenum":345679
-        },
-        {
-          "mid":"5",
-          "email":"abcdefg@gmail.com",
-          "name":"abcdefg",
-          "profession":"plumber",
-          "mobilenum":123456
-        },
-        {
-          "mid":"6",
-          "email":"abch@gmail.com",
-          "name":"abch",
-          "profession":"farmer",
-          "mobilenum":365421
-        },
-        {
-          "mid":"7",
-          "email":"abcg@gmail.com",
-          "name":"abcg",
-          "profession":"carpenter",
-          "mobilenum":985609
-        },
-        {
-          "mid":"8",
-          "email":"abck@gmail.com",
-          "name":"abck",
-          "profession":"florist",
-          "mobilenum":546889
-        },
-        {
-          "mid":"9",
-          "email":"abcq@gmail.com",
-          "name":"abcq",
-          "profession":"actor",
-          "mobilenum":234671
-        },
-        {
-          "mid":"10",
-          "email":"abcr@gmail.com",
-          "name":"abcr",
-          "profession":"painter",
-          "mobilenum":758302
-        }
-      ]
-  
+  "mobiles": [
+    {
+      "id": 1,
+      "productTitle": "Samsung",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://www.sathya.in/Media/Default/Thumbs/0038/0038136-vivo-s1-pro-black8gb-ram-128gb-storage-250.jpg"
+    },
+    {
+      "id": 2,
+      "productTitle": "Samsung",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://priceintanzania.com/wp-content/uploads/2019/04/Samsung-Galaxy-A70-Price-in-Tanzania.jpg"
+    },
+    {
+      "id": 3,
+      "productTitle": "Honor",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://5.imimg.com/data5/AW/IX/GLADMIN-53160395/galaxy-s-500x500.png"
+    },
+    {
+      "id": 4,
+      "productTitle": "Iphone-11",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://img.tatacliq.com/images/i7/1348Wx2000H/MP000000005562292_1348Wx2000H_202011300234051.jpeg"
+    },
+    {
+      "id": 5,
+      "productTitle": "OnePlus",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://670354.smushcdn.com/2260778/wp-content/uploads/2021/03/AMZ101-2.jpg"
+    },
+    {
+      "id": 6,
+      "productTitle": "Google pixel",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "productImage": "https://www.91-img.com/pictures/105546-v1-google-pixel-xl-mobile-phone-large-1.jpg"
+    },
+    {
+      "productTitle": "vivo",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/I/41sGASjc4-L.jpg",
+      "description": "https://images-na.ssl-images-amazon.com/images/I/41sGASjc4-L.jpg",
+      "id": 7
+    }
+  ],
+  "bikes": [],
+  "televisions": [],
+  "users": []
 }

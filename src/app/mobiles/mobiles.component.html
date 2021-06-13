@@ -1,5 +1,22 @@
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-5 mb-5">
+<ul class="nav nav-tabs justify-content-center mt-5">
+  <li class="nav-item">
+    <a class="nav-link" routerLink="viewmobiles" routerLinkActive="active">View Mobiles</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="addnewmobile" routerLinkActive="active">Add New mobile</a>
+  </li>
+</ul>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+
+<!-- before creating viewmobiles and addnewmobile component ,now this code is placed in viewmobileshtml <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-5 mb-5">
     <div class="col" *ngFor="let mobileObj of mobiles">
         <app-product-details [productObj]=mobileObj></app-product-details>
     </div>
-</div>
+</div> --> 
+
+
+

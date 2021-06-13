@@ -13,11 +13,17 @@ export class DataService {
   //inject httpclient service object
   constructor(private hc:HttpClient) { }
 
-  //after json
+  //after json //to read mobiles data
   getMobilesData():Observable<Product[]>{
     //http get
-    return this.hc.get<Product[]>("assets/mobilesdata.json")
+    return this.hc.get<Product[]>("http://localhost:3000/mobiles")
   }
+
+  //to save or create new mobile
+  createNewMobile(mobileObj):Observable<any>{
+    return this.hc.post("http://localhost:3000/mobiles",mobileObj)
+  }
+
 
 
 
