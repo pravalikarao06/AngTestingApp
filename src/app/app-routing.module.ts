@@ -38,6 +38,7 @@ const routes: Routes = [
     {path:'',redirectTo:"/products/mobiles",pathMatch:'full'}
   ]},
   {path:'',redirectTo:"/login",pathMatch:'full'},
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
   {path:"**",component:PagenotfoundComponent}
   
 ];
