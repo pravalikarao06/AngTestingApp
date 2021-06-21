@@ -9,7 +9,7 @@ import { Product } from '../models/product.model';
 })
 export class ViewmobilesComponent implements OnInit {
 
-
+  searchTerm:string;
   mobiles:Product[]=[];
   //inject obj of DataService class
   constructor(private dsObj:DataService){}

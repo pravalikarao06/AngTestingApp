@@ -9,6 +9,7 @@ import { TestService } from '../test.service'
 export class HomeComponent implements OnInit {
 
   n:number=100;
+  num:number=5;
   today=new Date();
 
   constructor(private tsObj:TestService) { }
