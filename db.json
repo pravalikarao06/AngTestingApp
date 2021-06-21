@@ -1,46 +1,46 @@
 {
   "mobiles": [
     {
-      "id": 1,
-      "productTitle": "Samsung",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-      "productImage": "https://www.sathya.in/Media/Default/Thumbs/0038/0038136-vivo-s1-pro-black8gb-ram-128gb-storage-250.jpg"
-    },
-    {
-      "id": 2,
-      "productTitle": "Samsung",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-      "productImage": "https://priceintanzania.com/wp-content/uploads/2019/04/Samsung-Galaxy-A70-Price-in-Tanzania.jpg"
-    },
-    {
-      "id": 3,
-      "productTitle": "Honor",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-      "productImage": "https://5.imimg.com/data5/AW/IX/GLADMIN-53160395/galaxy-s-500x500.png"
-    },
-    {
-      "id": 4,
-      "productTitle": "Iphone-11",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-      "productImage": "https://img.tatacliq.com/images/i7/1348Wx2000H/MP000000005562292_1348Wx2000H_202011300234051.jpeg"
-    },
-    {
-      "id": 5,
-      "productTitle": "OnePlus",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-      "productImage": "https://670354.smushcdn.com/2260778/wp-content/uploads/2021/03/AMZ101-2.jpg"
-    },
-    {
-      "id": 6,
-      "productTitle": "Google pixel",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
-      "productImage": "https://www.91-img.com/pictures/105546-v1-google-pixel-xl-mobile-phone-large-1.jpg"
-    },
-    {
-      "productTitle": "vivo",
-      "productImage": "https://images-na.ssl-images-amazon.com/images/I/41sGASjc4-L.jpg",
+      "productTitle": "vivo V9",
       "description": "https://images-na.ssl-images-amazon.com/images/I/41sGASjc4-L.jpg",
-      "id": 7
+      "id": 8,
+      "productImage": "https://images-na.ssl-images-amazon.com/images/I/41sGASjc4-L.jpg"
+    },
+    {
+      "productTitle": "realme",
+      "productImage": "https://images-eu.ssl-images-amazon.com/images/I/41mGLH7EUNL._SX300_SY300_QL70_ML2_.jpg",
+      "description": "https://images-eu.ssl-images-amazon.com/images/I/41mGLH7EUNL._SX300_SY300_QL70_ML2_.jpg",
+      "id": 9
+    },
+    {
+      "productTitle": "oppo",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/I/71bTTLZdeIL._SX679_.jpg",
+      "description": "https://images-na.ssl-images-amazon.com/images/I/71bTTLZdeIL._SX679_.jpg",
+      "id": 10
+    },
+    {
+      "productTitle": "iphone 11",
+      "productImage": "https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-Pro-500x500.jpg",
+      "description": "https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-Pro-500x500.jpg",
+      "id": 12
+    },
+    {
+      "productTitle": "Iphone 12",
+      "productImage": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000",
+      "description": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000",
+      "id": 13
+    },
+    {
+      "productTitle": "Google Pixel",
+      "description": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large_wm_brw/public/article_images/2020/10/google-pixel-5-hands-on-15.jpg",
+      "id": 14,
+      "productImage": "https://www.gizmochina.com/wp-content/uploads/2020/08/Google-Pixel-4a-5G-500x500.jpg"
+    },
+    {
+      "productTitle": "samsung",
+      "productImage": "https://images.samsung.com/is/image/samsung/in-galaxy-note10-sm-n97-sm-n970fzsdins-backauraglow-thumb-178503692?$320_320_PNG$",
+      "description": "https://images.samsung.com/is/image/samsung/in-galaxy-note10-sm-n97-sm-n970fzsdins-backauraglow-thumb-178503692?$320_320_PNG$",
+      "id": 15
     }
   ],
   "bikes": [],
