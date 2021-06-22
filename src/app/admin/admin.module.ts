@@ -4,6 +4,7 @@ import {FormsModule} from '@angular/forms'
 import { AdminRoutingModule } from './admin-routing.module';
 import { AdminComponent } from './admin.component';
 import { ViewproductsComponent } from './viewproducts/viewproducts.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ViewproductsComponent } from './viewproducts/viewproducts.component';
   imports: [
     CommonModule,
     AdminRoutingModule,
-    FormsModule
+    FormsModule,
+    SharedModule
   ]
 })
 export class AdminModule { }

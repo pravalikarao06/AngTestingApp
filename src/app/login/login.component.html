@@ -20,10 +20,10 @@
 
             <div class="mb-3">
                 <label for="pw" class="form-label">Password</label>
-                <input type="password" class="form-control" id="pw"  name="password" ngModel required pattern="\d\d-\d.*" #refpassword="ngModel">
+                <input type="password" class="form-control" id="pw"  name="password" ngModel required #refpassword="ngModel">
                 <p class="text-danger" *ngIf="(ref.submitted||refpassword.touched )&& refpassword.errors?.required">*Password is required</p>
 
-                <p class="text-danger" *ngIf="(ref.submitted||refpassword.touched )&& refpassword.errors?.pattern">*Pattern not matched</p>
+                <!--<p class="text-danger" *ngIf="(ref.submitted||refpassword.touched )&& refpassword.errors?.pattern">*Pattern not matched</p>-->
             </div>
         
            
