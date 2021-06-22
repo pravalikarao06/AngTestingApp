@@ -3,14 +3,27 @@
 <div class="row">
     <div class="col-sm-2 col-md-3"></div>
     <div class="col-sm-8 col-md-6">
-        <form class="text-white" #ref="ngForm"  (ngSubmit)="onLogin(ref)">
+        <form class="text-white" #ref="ngForm"  (ngSubmit)="ref.form.valid && onLogin(ref)">
             <div class="mb-3">
                 <label for="un" class="form-label">Username</label>
-                <input type="text" class="form-control" id="un" name="username" ngModel>
+                <input type="text" class="form-control" id="un" name="username" ngModel required minlength="4" #refusername="ngModel">
+                <p class="text-danger" *ngIf="(ref.submitted||refusername.touched )&& refusername.errors?.required">*Username is required</p>
+
+                <p class="text-danger" *ngIf="(ref.submitted||refusername.touched )&& refusername.errors?.minlength">*Min length should be 4</p>
             </div>
+
+
+
+
+
+
+
             <div class="mb-3">
                 <label for="pw" class="form-label">Password</label>
-                <input type="password" class="form-control" id="pw"  name="password" ngModel>
+                <input type="password" class="form-control" id="pw"  name="password" ngModel required pattern="\d\d-\d.*" #refpassword="ngModel">
+                <p class="text-danger" *ngIf="(ref.submitted||refpassword.touched )&& refpassword.errors?.required">*Password is required</p>
+
+                <p class="text-danger" *ngIf="(ref.submitted||refpassword.touched )&& refpassword.errors?.pattern">*Pattern not matched</p>
             </div>
         
            
@@ -20,3 +33,11 @@
     </div>
     <div class="col-sm-2 col-md-3"></div>
 </div>
+
+
+
+ <!-- //form validation
+<div class="text-center text-white">
+    <input type="text" name="name" #ref ngModel required autocomplete="off">
+        <h3 class="text-white">{{ref.className}}</h3>
+</div>  -->
